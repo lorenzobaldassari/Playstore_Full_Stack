@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+@media screen and (max-width: 576px) {
+  /* .box {
+    height: 750px !important;
+    
+  } */
+  .imgBox {
+    height: 500px !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .box {
+    height: 630px !important;
+  }
+  .imgBox {
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    height: 630px !important;
+  }
+  .imgBox {
+    height: 300px !important;
+  }
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+  .box {
+    height: 600 px !important;
+  }
+  .imgBox {
+    height: 300px !important;
+  }
+}
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ud6VxStjD21qdm-oZIyj1I2298v6DjZH3Q&usqp=CAU) !important;
+  /* color: yellow; */
+  /* font-family: 'Playpen Sans', cursive;   */
+  font-family: "Open Sans", sans-serif;
+}
+
+.hover:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  border: 4px solid rgb(201, 173, 14);
+  transition: 0.5s;
+}
+.hover {
+  transition: 0.5s;
+  /* box-shadow: #000000a2 0px 0px 11px 6px; */
+}
+
+.XBOX {
+  background-color: green;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.PLAYSTATION {
+  color: white;
+  background-color: blue;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.STEAM {
+  background-color: rgb(6, 6, 66);
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.League {
+  background-color: rgb(164, 143, 39);
+  color: white;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 50px;
+  padding: 0 10px;
+}
+/* .cartBox{
+ width: 100px;
+}
+.fas{
+  width: 100px;
+} */
+
+#counter {
+  left: 40%;
+  z-index: 5;
+}
+#cartIcon {
+  left: 20% !important;
+}
+
+.white {
+  color: black;
+  transition: 0.2s;
+}
+.red {
+  color: red;
+  transition: 0.2s;
+  font-size: 2em;
+}

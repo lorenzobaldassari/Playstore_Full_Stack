@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ud6VxStjD21qdm-oZIyj1I2298v6DjZH3Q&usqp=CAU) !important;
+  /* color: yellow; */
+  /* font-family: 'Playpen Sans', cursive;   */
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.box {
+  height: 100% !important;
+}
+.hover{
+  /* transition: 0.5s; */
+  box-shadow: #000000a2 0px 0px 11px 6px;
+}
+.XBOX {
+  background-color: green;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.PLAYSTATION {
+  color: white;
+  background-color:blue;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.STEAM {
+  background-color: rgb(6, 6, 66);
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50px;
+}

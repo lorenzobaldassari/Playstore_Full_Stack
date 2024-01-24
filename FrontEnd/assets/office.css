@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+
+.input {
+  width: 300px !important;
+}
+
+body {
+  background-image: url(https://www.mobachampion.com/imgs/arcane/caitlyn/caitlyn-from-arcane-with-rifle.jpg) !important;
+  /* color: yellow; */
+  /* font-family: 'Playpen Sans', cursive;   */
+  font-family: "Open Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.input-bg {
+  /* background-color: rgba(255, 255, 255, 0.638) !important; */
+  background-color: rgba(0, 0, 0, 0.638) !important;
+  color: white !important;
+  font-weight: 700;
+}
+footer {
+  
+  color: white !important;
+}
+
+.opacity-1{
+  background-color: rgba(241,241,241,0.2) !important;
+}
